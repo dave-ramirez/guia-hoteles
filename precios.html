@@ -41,73 +41,95 @@
             </ol>
           </nav>
 
-          <div class="table-responsive">
-            <table class="table table-striped">
-              <thead class="thead-dark">
-                <th>Calidad</th>
-                <th>Pinamar</th>
-                <th>Mar del Plata</th>
-                <th>San Clemente</th>
-                <th>Santa Teresita</th>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><span class="oi oi-star"></span></td>
-                  <td>USD 100</td>
-                  <td>USD 200</td>
-                  <td>USD 300</td>
-                  <td>USD 400</td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="oi oi-star"></span>
-                    <span class="oi oi-star"></span>
-                  </td>
-                  <td>USD 100</td>
-                  <td>USD 200</td>
-                  <td>USD 300</td>
-                  <td>USD 400</td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="oi oi-star"></span>
-                    <span class="oi oi-star"></span>
-                    <span class="oi oi-star"></span>
-                  </td>
-                  <td>USD 100</td>
-                  <td>USD 200</td>
-                  <td>USD 300</td>
-                  <td>USD 400</td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="oi oi-star"></span>
-                    <span class="oi oi-star"></span>
-                    <span class="oi oi-star"></span>
-                    <span class="oi oi-star"></span>
-                  </td>
-                  <td>USD 100</td>
-                  <td>USD 200</td>
-                  <td>USD 300</td>
-                  <td>USD 400</td>
-                </tr>
-                <tr>
-                  <td>
-                    <span class="oi oi-star"></span>
-                    <span class="oi oi-star"></span>
-                    <span class="oi oi-star"></span>
-                    <span class="oi oi-star"></span>
-                    <span class="oi oi-star"></span>
-                  </td>
-                  <td>USD 100</td>
-                  <td>USD 200</td>
-                  <td>USD 300</td>
-                  <td>USD 400</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
 
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="comprar-tab" data-toggle="tab" href="#comprar" role="tab" aria-controls="comprar" aria-selected="true">Comprar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="tarjetas-tab" data-toggle="tab" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="true">Tarjetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="true">Comentarios</a>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="comprar" role="tabpanel" aria-labelledby="comprar-tab">
+              <div class="table-responsive">
+                <table class="table table-striped">
+                  <thead class="thead-dark">
+                    <th>Calidad</th>
+                    <th>Pinamar</th>
+                    <th>Mar del Plata</th>
+                    <th>San Clemente</th>
+                    <th>Santa Teresita</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><span class="oi oi-star"></span></td>
+                      <td>USD 100</td>
+                      <td>USD 200</td>
+                      <td>USD 300</td>
+                      <td>USD 400</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                      </td>
+                      <td>USD 100</td>
+                      <td>USD 200</td>
+                      <td>USD 300</td>
+                      <td>USD 400</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                      </td>
+                      <td>USD 100</td>
+                      <td>USD 200</td>
+                      <td>USD 300</td>
+                      <td>USD 400</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                      </td>
+                      <td>USD 100</td>
+                      <td>USD 200</td>
+                      <td>USD 300</td>
+                      <td>USD 400</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                      </td>
+                      <td>USD 100</td>
+                      <td>USD 200</td>
+                      <td>USD 300</td>
+                      <td>USD 400</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="tab-pane fade show active" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+                <h3>Tarjetas</h3>
+            </div>
+            <div class="tab-pane fade show active" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+              <h3>Comentarios</h3>
+            </div>
+          </div>
 
         <footer class="pt-4 my-md-5 pt-md-5 border-top">
             <div class="row">
