@@ -37,20 +37,35 @@
                 <li class="breadcrumb-item active" aria-current="page">Home</li>
             </ol>
         </nav>
-        <iv class="row flex-wrap">
+        <div class="row">
             <div class="col-sm-4">
-                <h3>Donde queda?</h3>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseUno" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                    Donde queda?
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseDos" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                    Porque conocer?
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseTres" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                    Veni y disfruta!
+                </a>
+            </div>
+        </div>
+        
+        <iv class="row flex-wrap">
+            <div class="col-sm-4 collapse multi-collapse" id="collapseUno">
                 <p>Se encuentra en el continente de América del Sur, limita con Bolivia al norte y noreste; con Brasil
                     al este y Argentina al sur y al oeste.</p>
             </div>
-            <div class="col-sm-4">
-                <h3>Porque conocer?</h3>
+            <div class="col-sm-4 collapse multi-collapse" id="collapseDos">
                 <p>La magia que envuelve a Paraguay también tiene que ver con la poca conectividad disponible en algunas
                     partes. Hay un cierto aire de libertad cuando se tiene poco acceso al internet pues el tiempo se
                     llena de otra forma.</p>
             </div>
-            <div class="col-sm-4">
-                <h3>Veni y disfruta!</h3>
+            <div class="col-sm-4 collapse multi-collapse" id="collapseTres">
                 <p>Tal vez no hayas visitado Paraguay. Quizás solo pisaste tierras paraguayas para esperar tu vuelo de
                     conexión en Asunción. Si te has aventurado por la Carretera Panamericana, estuviste cerca. Es
                     posible también que hayas llegado muy cerca mientras turisteabas en uno de sus vecinos titanes.</p>
